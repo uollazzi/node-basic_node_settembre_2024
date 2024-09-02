@@ -1,9 +1,15 @@
 let pippo: string = "Pippo";
 console.log(pippo);
 
-for (const n of [1, 2, 3]) {
-    console.log(n);
-}
+let frutta = ["mela", "pera", "banana"];
 
-console.log("modifica");
-console.log("modifica 2");
+// alternativa 1
+// for (let i = 0; i < frutta.length; i++) {
+//     const f = frutta[i];
+//     console.log(f);
+// }
+
+// alternativa 2
+for (const f of frutta) {
+    console.log(f);
+}
