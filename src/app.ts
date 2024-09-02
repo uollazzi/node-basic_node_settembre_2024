@@ -6,3 +6,4 @@ for (const n of [1, 2, 3]) {
 }
 
 console.log("modifica");
+console.log("modifica 2");
