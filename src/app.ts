@@ -25,3 +25,20 @@ console.log(somma(4, 7));
 console.log(mate.PI);
 
 let o = new op();
+
+console.log("=".repeat(20));
+import * as myOs from "./es-os";
+myOs.logHostName();
+myOs.logUserName();
+
+console.log("=".repeat(20));
+import myPath from "./es-path";
+myPath();
+
+console.log("=".repeat(20));
+import myUrl from "./es-url";
+myUrl();
+
+
+import * as richieste from "./richieste";
+richieste.getPostsSync();
