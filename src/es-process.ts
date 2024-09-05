@@ -4,8 +4,8 @@ export default () => {
     console.log("Comando:", process.argv[2]);
 
     if (process.argv[2] == "generate") {
-        const cosa = process.argv[3];
-        const nome = process.argv[4];
+        const cosa: string = process.argv[3];
+        const nome: string = process.argv[4];
 
         switch (cosa) {
             case "component":
