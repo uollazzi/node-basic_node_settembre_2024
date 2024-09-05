@@ -40,5 +40,14 @@ import myUrl from "./es-url";
 myUrl();
 
 
-import * as richieste from "./richieste";
-richieste.getPostsSync();
+// import * as richieste from "./richieste";
+// richieste.getPostsSync();
+
+console.log("=".repeat(20));
+import myFs, { savePosts } from "./es-fs";
+myFs();
+// savePosts();
+
+console.log("=".repeat(20));
+import myProcess from "./es-process";
+myProcess();
